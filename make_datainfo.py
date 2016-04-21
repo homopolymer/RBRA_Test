@@ -51,4 +51,4 @@ with open(os.path.join(base_dir,'data_info.txt'),'w') as f:
     f.write('GeneTax=%s\n'%gene_tax)
     f.write('GeneTree=%s\n'%gene_tree)
     f.write('GeneIndex=%s.fai\n'%gene_seq)
-    f.write('GeneAlign=$s\n'%gene_align)
+    f.write('GeneAlign=%s\n'%gene_align)
